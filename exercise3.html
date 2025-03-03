@@ -3,19 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>My first styled page</title>
-    <style type="text/css">
-  body {
-    font-family: Georgia, "Times New Roman",
-          Times, serif;
-    color: purple;
-    background-color: #d8da3d }
-    h1 {
-    font-family: Helvetica, Geneva, Arial,SunSans-Regular, sans-serif }
-  </style>
+    <link rel="stylesheet" href="mystyle.css">
+      <!--将样式连接到css -->
   </head>
   <body>
     <!-- Site navigation menu -->
-      <ul>
+      <ul class="navbar">
+        <!-- 要补充样式，前后对应（navbar限定定义的是导航栏） -->
         <li><a href="index.html">Home page</a></li>
         <li><a href="musings.html">Musings</a></li>
         <li><a href="town.html">My town</a></li>
